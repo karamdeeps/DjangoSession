@@ -2,9 +2,15 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.idea/
 # C extensions
 *.so
+Pipfile.lock
+
+# Ignore Migrations file created by django
+**/**/migrations/**
+**/!**/migrations
+**/!**/migrations/__init__.py
 
 # Distribution / packaging
 .Python
